@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240409T071342Z
+DTSTART;TZID=America/Los_Angeles:20240417T100000
+DTEND;TZID=America/Los_Angeles:20240417T103000
+SUMMARY:Premium Support Product Briefing: Custom IOA's
+UID:20240409T071342Z-96823014531@fe80:0:0:0:10c2:54ff:fef6:6829ens5
+TZID:America/Los_Angeles
+DESCRIPTION:Join from a PC\, Mac\, iPad\, iPhone or Android device:\n    
+ Please click this URL to join. https://crowdstrike.zoom.us/w/96823014531
+ ?tk=QHFyQlwRwLzg89aprXe1ctPj0n4UcTVpMrW2UWFQmxA.DQYAAAAWixn0gxZjSTUwdk9h
+ SlJxeTh4Q1NSMTgyZGx3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=ZUIybTNZd
+ ERweVVPQVVUN25HTEJsQT09&uuid=WN_gTYqWnOLQwmKB4PpYmHtrw\n    Passcode: 81
+ 0490\n	Description: This webinar will give you a quick overview of Custo
+ m IOA APIs. Custom IOAs give customers the ability to create behavioral 
+ detections based on what they know about their specific applications and
+  environment We will also send you a postman collection after the webina
+ r that will help you get started in no time.\n\nOr One tap mobile:\n    
+ +12532050468\,\,96823014531#\,\,\,\,*810490# US\n    +12532158782\,\,968
+ 23014531#\,\,\,\,*810490# US (Tacoma)\n\nOr join by phone:\n    Dial(for
+  higher quality\, dial a number based on your current location):\n      
+   US: +1 253 205 0468  or +1 253 215 8782  or +1 301 715 8592  or +1 305
+  224 1968  or +1 309 205 3325  or +1 312 626 6799  or +1 346 248 7799  o
+ r +1 360 209 5623  or +1 386 347 5053  or +1 507 473 4847  or +1 564 217
+  2000  or +1 646 558 8656  or +1 646 931 3860  or +1 669 444 9171  or +1
+  669 900 6833  or +1 689 278 1000  or +1 719 359 4580 \n    Webinar ID: 
+ 968 2301 4531\n    Passcode: 810490\n    International numbers available
+ : https://crowdstrike.zoom.us/u/ap5sstNCk\n\n
+LOCATION:https://crowdstrike.zoom.us/w/96823014531?tk=QHFyQlwRwLzg89aprXe
+ 1ctPj0n4UcTVpMrW2UWFQmxA.DQYAAAAWixn0gxZjSTUwdk9hSlJxeTh4Q1NSMTgyZGx3AAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=ZUIybTNZdERweVVPQVVUN25HTEJsQT09
+ &uuid=WN_gTYqWnOLQwmKB4PpYmHtrw
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
